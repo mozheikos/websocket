@@ -1,0 +1,44 @@
+body {
+    background-color: #a1a0a0;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 20px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.project {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content {
+    min-height: 30vh;
+    border: 1px solid gray;
+}
+
+.show {
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+}
+#connect {
+    background-color: rgb(82, 101, 225);
+}
+
+#disconnect {
+    background-color: rgb(236, 35, 35);
+}
+
+.hide {
+    display: none;
+}

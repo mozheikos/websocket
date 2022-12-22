@@ -1,0 +1,2 @@
+PORT = 8002
+OPEN_PROJECTS = dict()
